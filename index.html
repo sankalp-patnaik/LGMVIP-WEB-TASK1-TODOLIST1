@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="box" id="heading">
+      <h1> Todo List </h1>
+    </div>
+
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Add a new task">
+        <button id="submitbtn" type="submit" name="list">+</button>
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All Tasks</span>
+          <span id="pending">Pending</span>
+          
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <footer>
+      © 2022 K Sankalp Patnaik
+    </footer>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
