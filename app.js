@@ -6,7 +6,7 @@ taskBox = document.querySelector(".task-box");
 let editId,
 isEditTask = false,
 todos = JSON.parse(localStorage.getItem("todo-list"));
-
+//Filters
 filters.forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelector("span.active").classList.remove("active");
